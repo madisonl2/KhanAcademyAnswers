@@ -1,0 +1,15 @@
+//Booklist data Challenge
+
+//Step 1
+
+CREATE TABLE books (id integer, name text, rating integer);
+
+//Step 2
+
+INSERT into books (1, 'Harry Potter and the Philosophers Stone', 6);
+
+INSERT into books (1, 'Harry Potter and the Chamber of Secrets', 5);
+
+INSERT into books (1, 'Harry Potter and the Prisoner of Azkaban', 8);
+
+SELECT * from books;
